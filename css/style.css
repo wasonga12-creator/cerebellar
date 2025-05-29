@@ -1,0 +1,47 @@
+/* Custom styles to enhance Bootstrap-based layout */
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.product-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#cart {
+  margin-top: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input::placeholder {
+  font-style: italic;
+  color: #6c757d;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#checkoutMessage {
+  text-align: center;
+  font-size: 1.2rem;
+}
